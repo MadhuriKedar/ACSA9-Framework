@@ -15,7 +15,7 @@ public class ValidLogin extends BaseTest {
 	
 	@Test(priority=1)
 	public void testvalidLogin() throws EncryptedDocumentException, FileNotFoundException, IOException {
-		String un=XL.getData(XL_PATH, "ValidLogin", 1, 0);
+		String un=XL.getData(XL_PATH, "ValidLogin", 1, 1);
 		String pw=XL.getData(XL_PATH, "ValidLogin", 1, 1);
 		String title=XL.getData(XL_PATH, "ValidLogin", 1, 2);
 		
